@@ -1,34 +1,33 @@
 {
-  "name": "hillel-js-basics",
-  "version": "1.0.0",
-  "description": "This is the **ultimate** mega-boosted, hypercharged repository for mastering JavaScript basics! ⚡️🔥",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install",
-    "lint": "eslint . --fix",
-    "format": "prettier --write .",
-    "lint:check": "eslint ."
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chalk": "^5.3.0"
-  },
-  "type": "module",
-  "devDependencies": {
-    "@eslint/js": "^9.16.0",
-    "@faker-js/faker": "^9.2.0",
-    "eslint": "^9.16.0",
-    "globals": "^15.13.0",
-    "husky": "^9.1.7",
-    "lint-staged": "^15.2.10",
-    "prettier": "^3.4.2"
-  },
-  "lint-staged": {
-    "**/*.{js,ts,tsx}": [
-      "eslint --fix",
-      "prettier --write"
-    ]
-  }
+	"name": "hillel-js-basics",
+	"version": "1.0.0",
+	"description": "This is the **ultimate** mega-boosted, hypercharged repository for mastering JavaScript basics! ⚡️🔥",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepare": "husky",
+		"eslint:all": "npx eslint .",
+		"prettier:fix": "npx prettier --write ."
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^5.3.0"
+	},
+	"type": "module",
+	"devDependencies": {
+		"@eslint/js": "^9.16.0",
+		"@faker-js/faker": "^9.2.0",
+		"eslint": "^9.16.0",
+		"globals": "^15.13.0",
+		"husky": "^9.1.7",
+		"lint-staged": "^15.2.10",
+		"prettier": "3.4.2"
+	},
+	"lint-staged": {
+		"**/*.{js,ts,tsx}": [
+			"eslint --fix",
+			"prettier --write"
+		]
+	}
 }
