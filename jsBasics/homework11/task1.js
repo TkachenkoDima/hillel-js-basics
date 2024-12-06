@@ -9,7 +9,7 @@ function printWithTimeout(text, timeout) {
 	}, timeout);
 }
 
-const unusedVariable = 'This variable is not used';
+const unusedVariable = 'This variable is not used'
 
 printWithTimeout(randomText, randomTimeout);
 console.log(`Total wait time: ${randomTimeout} ms`);
