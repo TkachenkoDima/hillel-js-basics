@@ -11,5 +11,5 @@ function printWithTimeout(text, timeout) {
 
 const unusedVariable = 'This variable is not used'
 
-printWithTimeout(randomText, randomTimeout);
-console.log(`Total wait time: ${randomTimeout} ms`);
+printWithTimeout(randomText, randomTimeout)
+console.log(`Total wait time: ${randomTimeout} ms`)
